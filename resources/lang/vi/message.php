@@ -14,6 +14,9 @@ return [
     'error' => [
         'error' => 'Error'
     ],
+    'user' => [
+        'register_success' => 'Register user successfully.',
+    ],
     \App\Models\User::class => [
         'not_found' => 'User is not found.'
     ],
